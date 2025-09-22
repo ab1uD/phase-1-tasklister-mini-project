@@ -33,7 +33,7 @@ function addTaskToList(description) {
 
 function createDeleteButton() {
   const btn = document.createElement("button");
-  btn.textContent = "Delete";
+  btn.textContent = "remove";
   btn.style.marginLeft = "10px";
   btn.style.color = "red";
   btn.style.fontSize="12px"
